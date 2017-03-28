@@ -1,0 +1,9 @@
+language: node_js
+
+services:
+  - selenium
+
+build:
+  ci:
+    - ./detectChangedFolders.sh
+
